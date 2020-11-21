@@ -17,7 +17,8 @@ def plantTree(x,y,z):
     
     
 a,b,c = mc.player.getTilePos()
-plantTree(a,b,c)
+for i in range(10):    
+    plantTree(a+i*5,b,c)
   
   
     
